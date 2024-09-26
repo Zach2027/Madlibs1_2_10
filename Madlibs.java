@@ -2,18 +2,19 @@ import java.util.Scanner;
 public class Madlibs{
 
     public static void main(String[] args) {
-   
-        String madlib = "I wnet to the animal <noun>, the <plural noun> and the <number> beats were there.";
-        
-
-
-
-
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("enter a string");
-        String input = scanner.nextLine();
-        System.out.println("you said " + input);
+        String madlib = "I wnet to the animal <noun>, the <plural_noun> and the <number> beats were there.";
+        //madlib = "Once upon a time in a <adjective> land, a <noun> <adverb> grew.";
+        //madlib = "The <adjective> <noun> was as <adjective> as the car";
+
+
+
+        
+        System.out.println("enter a Noun");
+        String noun = scanner.nextLine();
+        
+        System.out.println(madlib);
 
     }
 }
